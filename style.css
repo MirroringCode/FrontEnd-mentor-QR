@@ -13,19 +13,19 @@ img {
 /* ========================== Font configuration ========================== */
 
  html {
-    font-size: .5rem;
     font-family: 'Outfit';
 } 
 
 .text {
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 1rem;
     margin: auto 1em;
     line-height: 1.5;
 }
 
-.text h3 {
-    font-size: 2.5rem;
+.text h2 {
+    font-size: 1.45rem;
+    
     color: hsl(218, 44%, 22%)
 }
 
@@ -35,15 +35,16 @@ img {
 
 /* ========================== Layout ========================== */
 
+body {
+    min-height: 100vh;
+}
+
 main {
     display: flex;
     flex-direction: column;
-}
-
-section {
-    display: flex;
-    flex-direction: column;
     align-items: center;
+
+
 }
 
 .qr-container {
@@ -51,13 +52,13 @@ section {
     flex-direction: column;
     background-color: white;
     max-width: 300px;
-    margin: 6.5em 0;
+    margin-top: 2.75em;
     border-radius: 20px;
     box-shadow: 0 9px 6px 5px rgba(211, 211, 211, 0.15);
 }
 .qr-code-container {
     width: 100%;
-    padding: 1em 1.9em;
+    padding: 1em 1em;
     padding-bottom: 0;
     margin-top: .75em;
     
@@ -70,5 +71,7 @@ section {
     border-radius: 15px;
 }
 
- 
+.attribution {
+    margin-top: 4.25em;
+}
 
